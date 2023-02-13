@@ -11,30 +11,7 @@ import java.time.Month;
 
 public class Main {
     public static void main(String[] args) {
-
-//
-//
-//        repositorioDeClientes.salvar(cliente1);
-//        repositorioDeClientes.salvar(cliente2);
-//        repositorioDeClientes.salvar(cliente3);
-//        repositorioDeClientes.salvar(clientePJ1);
-//
-//        System.out.println(repositorioDeClientes.listarTodos());
-//
-//        ClientePessoaFisica cliente1atualizado = new ClientePessoaFisica("Cliente1Att", "11111111111");
-//
-//        repositorioDeClientes.atualizar(cliente1atualizado);
-//        System.out.println(repositorioDeClientes.listarTodos());
-//
-//        repositorioDeClientes.deletar("22222222222");
-//        System.out.println(repositorioDeClientes.listarTodos());
-
-//        repositorioDeVeiculosDisponiveis.salvar(veiculoM1);
-//        repositorioDeVeiculosDisponiveis.salvar(veiculoM2);
-//        repositorioDeVeiculosDisponiveis.salvar(veiculoM3);
-//
-//        System.out.println(repositorioDeVeiculosDisponiveis.buscarPorFabricante("ss"));
-
+        
         RepositorioDeClientes repositorioDeClientes = new RepositorioDeClientes();
         RepositorioDeVeiculosDisponiveis repositorioDeVeiculosDisponiveis = new RepositorioDeVeiculosDisponiveis();
         RepositoriodeVeiculosAlugados repositoriodeVeiculosAlugados = new RepositoriodeVeiculosAlugados();
@@ -137,6 +114,6 @@ public class Main {
         System.out.println("Veículos Alugados: ");
         System.out.println(gerenciadorDeVeiculo.listarVeiculosAlugados());
         System.out.println();
-        
+
     }
 }
